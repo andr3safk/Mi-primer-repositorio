@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptos básicos</title>
+    <link rel="shortcut icon" href="../imagenes/git.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="https://github.com/andr3safk" class="logo">GitHub</a>
+            <input type="checkbox" id="menu">
+        </div>
+        
+        <div class="header-content container">
+
+            <h1>Conceptos básicos GitHub</h1>
+            <p>GitHub es una plataforma de desarrollo colaborativo donde los programadores y desarrolladores pueden almacenar, gestionar y compartir sus proyectos de código. </p>  
+        </div>
+    </header>
+
+    <section class="GitHub">
+        <h2>Cómo crear un repositorio.</h2>
+        
+        <p>Para crear un repositorio en GitHUb primeramente debemos tener una cuenta en GitHUb, para esto simplemente entramos a la página de GitHub, luego de registrarnos y tener nuestra cuenta veremos lo siguiente:</p>
+
+        <img src="../imagenes/ReposIntro.png" alt="imagen repositorio">
+
+        <p>Para tener nuestro primer <span>Repositorio</span> podemos crearlo de 2 maneras en esta página, que son las señaladas a continuación.</p>
+
+        <img src="../imagenes/repoSeñalar.png" alt="como crear repositorio">
+
+        <p>Se mostrará una pestaña en la que podrás añadir un nombre, decidir si el repositorio sea público <span>(Permite a todo el mundo verlo)</span> O Público<span>(Se controla quienes pueden acceder al repositorio).</span></p>
+
+        <img src="../imagenes/crear.png" alt="crear repositorio">
+
+        <p>Para el nombre se recomienda ser muy descriptivo, y que defina al proyecto de manera rápida, se puede añadir una descripción opcional y un <span>Read Me</span> que es un archivo en el que se puede escribir, normalmente es usado por el autor para algunas notas del proyecto, adjuntar créditos entre otros usos. Finalmente creamos el repositorio.</p>
+
+        <img src="../imagenes/repositorioCreado.png" alt="creado repositorio">
+
+        <p>Y tenemos nuestro repositorio creado con el que podremos empezar a trabajar.</p>
+    </section>
+
+    <section class="GitHub">
+        <h2>Enlazar repositorio</h2>
+        
+        <p>Para enlazar un repositorio a nuestro editor de código, debemos abrir este mismo, luedo, debemos ir de nuevo a nuestro Repositorio y allí seguir las instrucciones que debemos realizar en nuestro editor de código, para esto abrimos una terminal.</p>
+
+        <p>Seguidamente usamos el comando <span>git init</span> para inicializar nuestro repositorio de manera local.</p>
+        <img src="../imagenes/inicializar.png" alt="inicializar repo">
+
+        <p>Podemos comprobar si nos faltan <strong><i><span>"Archivos por subir"</span></i></strong> con el comando <strong><span>git status.</span></strong> </p>
+        
+        <img src="../imagenes/archivos.png" alt="archivos sin commit">
+
+        <p>Como podemos ver, aún no se han realizado un Commit en el que se suban los archivos que estamos trabajando, para subirlos podemos usar el comando <strong><i><span>git add.</span></i></strong></p>
+
+        <img src="../imagenes/archivosBien.png" alt="subida de archivos">
+
+        <p>usando el mismo <strong><span>git status.</span></strong> podemos corroborar que los archivos están subidos de manera correcta. </p>
+
+        <p>Ahora. usamos el comando <strong><span>git commit -m</span></strong> para realizar nuestro primer commit, debemos tener en cuenta que esto se está realizando de manera local y no se ve reflefado de momento en nuestro github.</p>
+
+        <p></p>
+    </section>
+
+    <section class="GitHub">
+        <h2>commit</h2>
+        <p>Un commit es básicamente como un <span>Guaradr cambios</span>, en el proyecto, este se almacena en los cambios realizados en el proyecto, en el repositorio.</p>
+
+        <p>Un commit incluye un <span>Mensaje</span> en el cual se agrega información que explica que se ha modificado y/o añadido al proyecto y sus funcionalidades</p>
+
+        <p>Para crear un Commit, necesitamos entrar a nuestro editor de texto.</p>
+
+    </section>
+    
+</body>
+</html>
